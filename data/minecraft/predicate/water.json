@@ -1,0 +1,14 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "fluid": {
+          "tag": "minecraft:water"
+        }
+      }
+    }]
+}
