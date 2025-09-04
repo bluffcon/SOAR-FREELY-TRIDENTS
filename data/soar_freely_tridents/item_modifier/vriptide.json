@@ -1,0 +1,19 @@
+{
+  "function": "minecraft:set_enchantments",
+  "enchantments": {
+    "minecraft:riptide": -1
+  },
+  "add": false,
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "components": {
+          "minecraft:enchantments": {
+            "minecraft:griptide": 1
+          }
+        }
+      }
+    }
+  ]
+}

@@ -2,14 +2,14 @@
   "description": "Riptide",
   "supported_items": "minecraft:trident",
   "weight": 2,
-  "max_level": 1,
+  "max_level": 3,
   "min_cost": {
     "base": 1,
     "per_level_above_first": 1
   },
   "max_cost": {
     "base": 1,
-    "per_level_above_first": 10
+    "per_level_above_first": 4
   },
   "anvil_cost": 4,
   "slots": [
